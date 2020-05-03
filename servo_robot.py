@@ -12,7 +12,7 @@ try:
     from board import SCL, SDA              # import from adafruit_blinka
     from adafruit_pca9685 import PCA9685    # import from adafruit-circuitpython-pca9685
 
-    from .scripts.servo_driver.robot_servo import RobotServo
+    from scripts.servo_driver.robot_servo import RobotServo
 except ImportError:
     print("Not using real board")
 
