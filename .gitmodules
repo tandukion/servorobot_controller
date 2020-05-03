@@ -1,3 +1,3 @@
 [submodule "scripts/ros_controller"]
-	path = ros_controller
+	path = scripts/ros_controller
 	url = https://github.com/tandukion/ros_controller.git
